@@ -1,6 +1,6 @@
-// frontend/app/setup-profile/page.tsx
 "use client";
-
+export const dynamic = "force-dynamic";
+// frontend/app/setup-profile/page.tsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
@@ -649,4 +649,5 @@ export default function SetupProfilePage() {
       </div>
     </div>
   );
+
 }
